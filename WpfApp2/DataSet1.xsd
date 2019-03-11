@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="airports" msprop:Generator_TableClassName="airportsDataTable" msprop:Generator_TableVarName="tableairports" msprop:Generator_TablePropName="airports" msprop:Generator_RowDeletingName="airportsRowDeleting" msprop:Generator_RowChangingName="airportsRowChanging" msprop:Generator_RowEvHandlerName="airportsRowChangeEventHandler" msprop:Generator_RowDeletedName="airportsRowDeleted" msprop:Generator_UserTableName="airports" msprop:Generator_RowChangedName="airportsRowChanged" msprop:Generator_RowEvArgName="airportsRowChangeEvent" msprop:Generator_RowClassName="airportsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="airport_number" msprop:Generator_ColumnVarNameInTable="columnairport_number" msprop:Generator_ColumnPropNameInRow="airport_number" msprop:Generator_ColumnPropNameInTable="airport_numberColumn" msprop:Generator_UserColumnName="airport_number" type="xs:string" />
+              <xs:element name="city_number" msprop:Generator_ColumnVarNameInTable="columncity_number" msprop:Generator_ColumnPropNameInRow="city_number" msprop:Generator_ColumnPropNameInTable="city_numberColumn" msprop:Generator_UserColumnName="city_number" type="xs:string" minOccurs="0" />
+              <xs:element name="airport_name" msprop:Generator_ColumnVarNameInTable="columnairport_name" msprop:Generator_ColumnPropNameInRow="airport_name" msprop:Generator_ColumnPropNameInTable="airport_nameColumn" msprop:Generator_UserColumnName="airport_name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cities" msprop:Generator_TableClassName="citiesDataTable" msprop:Generator_TableVarName="tablecities" msprop:Generator_TablePropName="cities" msprop:Generator_RowDeletingName="citiesRowDeleting" msprop:Generator_RowChangingName="citiesRowChanging" msprop:Generator_RowEvHandlerName="citiesRowChangeEventHandler" msprop:Generator_RowDeletedName="citiesRowDeleted" msprop:Generator_UserTableName="cities" msprop:Generator_RowChangedName="citiesRowChanged" msprop:Generator_RowEvArgName="citiesRowChangeEvent" msprop:Generator_RowClassName="citiesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="city_number" msprop:Generator_ColumnVarNameInTable="columncity_number" msprop:Generator_ColumnPropNameInRow="city_number" msprop:Generator_ColumnPropNameInTable="city_numberColumn" msprop:Generator_UserColumnName="city_number" type="xs:string" />
+              <xs:element name="city_name" msprop:Generator_ColumnVarNameInTable="columncity_name" msprop:Generator_ColumnPropNameInRow="city_name" msprop:Generator_ColumnPropNameInTable="city_nameColumn" msprop:Generator_UserColumnName="city_name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fights" msprop:Generator_TableClassName="fightsDataTable" msprop:Generator_TableVarName="tablefights" msprop:Generator_TablePropName="fights" msprop:Generator_RowDeletingName="fightsRowDeleting" msprop:Generator_RowChangingName="fightsRowChanging" msprop:Generator_RowEvHandlerName="fightsRowChangeEventHandler" msprop:Generator_RowDeletedName="fightsRowDeleted" msprop:Generator_UserTableName="fights" msprop:Generator_RowChangedName="fightsRowChanged" msprop:Generator_RowEvArgName="fightsRowChangeEvent" msprop:Generator_RowClassName="fightsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="flight_number" msprop:Generator_ColumnVarNameInTable="columnflight_number" msprop:Generator_ColumnPropNameInRow="flight_number" msprop:Generator_ColumnPropNameInTable="flight_numberColumn" msprop:Generator_UserColumnName="flight_number" type="xs:string" />
+              <xs:element name="airplane_number" msprop:Generator_ColumnVarNameInTable="columnairplane_number" msprop:Generator_ColumnPropNameInRow="airplane_number" msprop:Generator_ColumnPropNameInTable="airplane_numberColumn" msprop:Generator_UserColumnName="airplane_number" type="xs:string" minOccurs="0" />
+              <xs:element name="date_of_arrilval" msprop:Generator_ColumnVarNameInTable="columndate_of_arrilval" msprop:Generator_ColumnPropNameInRow="date_of_arrilval" msprop:Generator_ColumnPropNameInTable="date_of_arrilvalColumn" msprop:Generator_UserColumnName="date_of_arrilval" type="xs:string" minOccurs="0" />
+              <xs:element name="arrive_airport_number" msprop:Generator_ColumnVarNameInTable="columnarrive_airport_number" msprop:Generator_ColumnPropNameInRow="arrive_airport_number" msprop:Generator_ColumnPropNameInTable="arrive_airport_numberColumn" msprop:Generator_UserColumnName="arrive_airport_number" type="xs:string" minOccurs="0" />
+              <xs:element name="departure_airport_number" msprop:Generator_ColumnVarNameInTable="columndeparture_airport_number" msprop:Generator_ColumnPropNameInRow="departure_airport_number" msprop:Generator_ColumnPropNameInTable="departure_airport_numberColumn" msprop:Generator_UserColumnName="departure_airport_number" type="xs:string" minOccurs="0" />
+              <xs:element name="departure_date" msprop:Generator_ColumnVarNameInTable="columndeparture_date" msprop:Generator_ColumnPropNameInRow="departure_date" msprop:Generator_ColumnPropNameInTable="departure_dateColumn" msprop:Generator_UserColumnName="departure_date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="passengers" msprop:Generator_TableClassName="passengersDataTable" msprop:Generator_TableVarName="tablepassengers" msprop:Generator_TablePropName="passengers" msprop:Generator_RowDeletingName="passengersRowDeleting" msprop:Generator_RowChangingName="passengersRowChanging" msprop:Generator_RowEvHandlerName="passengersRowChangeEventHandler" msprop:Generator_RowDeletedName="passengersRowDeleted" msprop:Generator_UserTableName="passengers" msprop:Generator_RowChangedName="passengersRowChanged" msprop:Generator_RowEvArgName="passengersRowChangeEvent" msprop:Generator_RowClassName="passengersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="passenger_number" msprop:Generator_ColumnVarNameInTable="columnpassenger_number" msprop:Generator_ColumnPropNameInRow="passenger_number" msprop:Generator_ColumnPropNameInTable="passenger_numberColumn" msprop:Generator_UserColumnName="passenger_number" type="xs:string" />
+              <xs:element name="first_name" msprop:Generator_ColumnVarNameInTable="columnfirst_name" msprop:Generator_ColumnPropNameInRow="first_name" msprop:Generator_ColumnPropNameInTable="first_nameColumn" msprop:Generator_UserColumnName="first_name" type="xs:string" minOccurs="0" />
+              <xs:element name="last_name" msprop:Generator_ColumnVarNameInTable="columnlast_name" msprop:Generator_ColumnPropNameInRow="last_name" msprop:Generator_ColumnPropNameInTable="last_nameColumn" msprop:Generator_UserColumnName="last_name" type="xs:string" minOccurs="0" />
+              <xs:element name="middle_name" msprop:Generator_ColumnVarNameInTable="columnmiddle_name" msprop:Generator_ColumnPropNameInRow="middle_name" msprop:Generator_ColumnPropNameInTable="middle_nameColumn" msprop:Generator_UserColumnName="middle_name" type="xs:string" minOccurs="0" />
+              <xs:element name="date_of_birthday" msprop:Generator_ColumnVarNameInTable="columndate_of_birthday" msprop:Generator_ColumnPropNameInRow="date_of_birthday" msprop:Generator_ColumnPropNameInTable="date_of_birthdayColumn" msprop:Generator_UserColumnName="date_of_birthday" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tickets" msprop:Generator_TableClassName="ticketsDataTable" msprop:Generator_TableVarName="tabletickets" msprop:Generator_TablePropName="tickets" msprop:Generator_RowDeletingName="ticketsRowDeleting" msprop:Generator_RowChangingName="ticketsRowChanging" msprop:Generator_RowEvHandlerName="ticketsRowChangeEventHandler" msprop:Generator_RowDeletedName="ticketsRowDeleted" msprop:Generator_UserTableName="tickets" msprop:Generator_RowChangedName="ticketsRowChanged" msprop:Generator_RowEvArgName="ticketsRowChangeEvent" msprop:Generator_RowClassName="ticketsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ticket_number" msprop:Generator_ColumnVarNameInTable="columnticket_number" msprop:Generator_ColumnPropNameInRow="ticket_number" msprop:Generator_ColumnPropNameInTable="ticket_numberColumn" msprop:Generator_UserColumnName="ticket_number" type="xs:string" />
+              <xs:element name="passenger_number" msprop:Generator_ColumnVarNameInTable="columnpassenger_number" msprop:Generator_ColumnPropNameInRow="passenger_number" msprop:Generator_ColumnPropNameInTable="passenger_numberColumn" msprop:Generator_UserColumnName="passenger_number" type="xs:string" minOccurs="0" />
+              <xs:element name="seat_number" msprop:Generator_ColumnVarNameInTable="columnseat_number" msprop:Generator_ColumnPropNameInRow="seat_number" msprop:Generator_ColumnPropNameInTable="seat_numberColumn" msprop:Generator_UserColumnName="seat_number" type="xs:string" minOccurs="0" />
+              <xs:element name="cost" msprop:Generator_ColumnVarNameInTable="columncost" msprop:Generator_ColumnPropNameInRow="cost" msprop:Generator_ColumnPropNameInTable="costColumn" msprop:Generator_UserColumnName="cost" type="xs:string" minOccurs="0" />
+              <xs:element name="avg_cost" msprop:Generator_ColumnVarNameInTable="columnavg_cost" msprop:Generator_ColumnPropNameInRow="avg_cost" msprop:Generator_ColumnPropNameInTable="avg_costColumn" msprop:Generator_UserColumnName="avg_cost" type="xs:string" minOccurs="0" />
+              <xs:element name="flight_number" msprop:Generator_ColumnVarNameInTable="columnflight_number" msprop:Generator_ColumnPropNameInRow="flight_number" msprop:Generator_ColumnPropNameInTable="flight_numberColumn" msprop:Generator_UserColumnName="flight_number" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ariplanes" msprop:Generator_TableClassName="ariplanesDataTable" msprop:Generator_TableVarName="tableariplanes" msprop:Generator_TablePropName="ariplanes" msprop:Generator_RowDeletingName="ariplanesRowDeleting" msprop:Generator_RowChangingName="ariplanesRowChanging" msprop:Generator_RowEvHandlerName="ariplanesRowChangeEventHandler" msprop:Generator_RowDeletedName="ariplanesRowDeleted" msprop:Generator_UserTableName="ariplanes" msprop:Generator_RowChangedName="ariplanesRowChanged" msprop:Generator_RowEvArgName="ariplanesRowChangeEvent" msprop:Generator_RowClassName="ariplanesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="airplane_number" msprop:Generator_ColumnVarNameInTable="columnairplane_number" msprop:Generator_ColumnPropNameInRow="airplane_number" msprop:Generator_ColumnPropNameInTable="airplane_numberColumn" msprop:Generator_UserColumnName="airplane_number" type="xs:string" />
+              <xs:element name="name_of_airplane" msprop:Generator_ColumnVarNameInTable="columnname_of_airplane" msprop:Generator_ColumnPropNameInRow="name_of_airplane" msprop:Generator_ColumnPropNameInTable="name_of_airplaneColumn" msprop:Generator_UserColumnName="name_of_airplane" type="xs:string" minOccurs="0" />
+              <xs:element name="brand_of_airplane" msprop:Generator_ColumnVarNameInTable="columnbrand_of_airplane" msprop:Generator_ColumnPropNameInRow="brand_of_airplane" msprop:Generator_ColumnPropNameInTable="brand_of_airplaneColumn" msprop:Generator_UserColumnName="brand_of_airplane" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:airports" />
+      <xs:field xpath="mstns:airport_number" />
+    </xs:unique>
+    <xs:unique name="cities_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:cities" />
+      <xs:field xpath="mstns:city_number" />
+    </xs:unique>
+    <xs:unique name="fights_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:fights" />
+      <xs:field xpath="mstns:flight_number" />
+    </xs:unique>
+    <xs:unique name="passengers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:passengers" />
+      <xs:field xpath="mstns:passenger_number" />
+    </xs:unique>
+    <xs:unique name="tickets_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tickets" />
+      <xs:field xpath="mstns:ticket_number" />
+    </xs:unique>
+    <xs:unique name="ariplanes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ariplanes" />
+      <xs:field xpath="mstns:airplane_number" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
